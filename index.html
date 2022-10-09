@@ -5,44 +5,56 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="zadaniedomowe1DamianPiechota">
     <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="./css/style.css" />
-    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet">
 </head>
 <body>
     <header> 
-        <nav>
-            <a class="logo" href="#WebStudio"><span class="color-logo">Web</span>Studio</a>
-            <ul>
-                <li><a href="/Agencja">Agencja</a></li>
-                <li><a href="/Portfolio">Portfolio</a></li>
-                <li><a href="/Kontakt">Kontakt</a></li>
-                <li><a href="mailto:info@devstudio.com">info@devstudio.com</a></li>
-                <li><a href="tel:+48111111111">+48 111 111 111</a></li>
-              </ul>
-        </nav>
+        <div class="secondFont">
+            <span class="logo-left"> <a href="#">Web</a></span>
+            <span class="logo-right"> <a href="#">Studio</a></span>
+          </div>
+          <nav>
+            <ul class="menu">
+              <li><a href="#">Agencja</a></li>
+              <li><a href="../goit-markup-hw-02/portfolio.html">Portfolio</a></li>
+              <li><a href="#">Kontakt</a></li>
+            </ul>
+          </nav>
+          <div>
+            <ul class="menu">
+              <li><a href="mailto:info@example.com">info@example.com</a></li>
+              <li><a href="tel:+48 111 111 111">+48 111 111 111</a></li>
+            </ul>
+          </div>
     </header>
 <main>
-    <section>
+    <section class="Bar">
         <h1>EFEKTYWNE ROZWIĄZANIA DLA WASZEGO BIZNESU</h1> 
-        <button type="button">Zamów usługę</button>
+        <button type="button" class="button-bar">Zamów usługę</button>
     </section>
     <section>
         <ul>
         <li>
-            <h4>LOREM IPSUM</h4>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vel arcu sem. Sed non sodales dui. Interdum et malesuada</p>  
+            <h4 class="h-lorem">LOREM IPSUM</h4>
+            <p class="description-lorem">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vel arcu sem. Sed non sodales dui. Interdum et malesuada</p>  
         </li>
         <li>
-            <h4>LOREM IPSUM</h4>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vel arcu sem. Sed non sodales dui. Interdum et malesuada</p>  
+            <h4 class="h-lorem">LOREM IPSUM</h4>
+            <p class="description-lorem">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vel arcu sem. Sed non sodales dui. Interdum et malesuada</p>  
         </li>
         <li>
-            <h4>LOREM IPSUM</h4>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vel arcu sem. Sed non sodales dui. Interdum et malesuada</p>  
+            <h4 class="h-lorem">LOREM IPSUM</h4>
+            <p class="description-lorem">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vel arcu sem. Sed non sodales dui. Interdum et malesuada</p>  
         </li>
         <li>
-            <h4>LOREM IPSUM</h4>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vel arcu sem. Sed non sodales dui. Interdum et malesuada</p>  
+            <h4 class="h-lorem">LOREM IPSUM</h4>
+            <p class="description-lorem">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vel arcu sem. Sed non sodales dui. Interdum et malesuada</p>  
         </li>
     </ul>
         </section>
@@ -57,45 +69,53 @@
     <section>
         <h2>Nasz zespół</h2>
         <ul>
-            <li><figure>
-                <img src="./images/john1s.jpg" alt="prawownik 1" width="270" height="260">
-                <figcaption>
-                        <p>John Doe</p>
-                        <p>Product Designer</p>
-                </figcaption>
-                </figure>
+            <li class="people">
+                <img src="./images/john1s.jpg" 
+                alt="prawownik 1" 
+                width="270" 
+                height="260">
+                <div class="name">John Doe</div>
+                <div class="profession">Product Designer</div>
             </li>
-                <li><figure>
-                    <img src="./images/john2s.jpg" alt="prawownik 1" width="270" height="260">
-                    <figcaption>
-                            <p>John Doe</p>
-                            <p>Frontend Developer</p>
-                    </figcaption>
-                    </figure></li>
-                    <li><figure>
-                        <img src="./images/john3s.jpg" alt="prawownik 1" width="270" height="260">
-                        <figcaption>
-                                <p>John Doe</p>
-                                <p>Marketing</p>
-                        </figcaption>
-                        </figure></li>
-                        <li><figure>
-                            <img src="./images/john4s.jpg" alt="prawownik 1" width="270" height="260">
-                            <figcaption>
-                                    <p>John Doe</p>
-                                    <p>UI Designer</p>
-                            </figcaption>
-                            </figure></li>
+                <li class="people">
+                    <img src="./images/john2s.jpg" 
+                    alt="prawownik 1" 
+                    width="270" 
+                    height="260">
+                        <div class="name">John Doe</div>
+                        <div class="profession">Frontend Developer</div>        
+                </li>
+                <li class="people">
+                    <img src="./images/john3s.jpg" 
+                    alt="prawownik 1" 
+                    width="270" 
+                    height="260">
+                        <div class="name">John Doe</div>
+                        <div class="profession">Marketing</div>
+                </li>
+                <li class="people">
+                    <img src="./images/john4s.jpg" 
+                    alt="prawownik 1" 
+                    width="270" 
+                    height="260">
+                        <div class="name">John Doe</div>
+                        <div class="profession">UI Designer</div>
+                </li>
         </ul>
     </section>
 </main> 
 <footer>
-    <ul>
-        <li><a class="logo" href="#WebStudio"><span class="color-logo">Web</span>Studio</a></li>
-        <li><address>m. Warszawa, Aleje Jerozolimskie 21</address> </li>
-        <li><a href="mailto:info@devstudio.com">info@devstudio.com</a></li>
-        <li><a href="tel:+48111111111">+48 111 111 111</a></li>
-    </ul> 
+    <div class="secondFont">
+        <span class="logoLeft"> <a href="#">Web</a></span>
+        <span class="logoRight-footer"> 
+            <a href="#">Studio</a></span>
+    </div>
+      <address>m. Warszawa, Aleje Jerozolimskie 21</address>
+
+      <ul class="menu-footer">
+        <li><a href="mailto:info@example.com">info@example.com</a></li>
+        <li><a href="tel:+48 111 111 111">+48 111 111 111</a></li>
+      </ul>
 </footer>  
    
     
